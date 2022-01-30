@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px/16px =62.5%
+
+    @media only screen and (max-width: 783px) {
+        font-size: 50%;
+    }
+}
+
+body {
+    background-color: #dae2d5;
+    font-family: fingur paint;
+    
+}
+:root {
+
+--backgroun-color: #dae2d5;
+--heading-color:#3f6766;
+--shadow-light: 0 2rem 6rem rgba(0,0,0,.1);
+--shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+}
+
+
+//  $bp-medium: 56.25em;  //900px
+//  $bp-small: 36.5em;   //600px
+
+.main-section {
+    max-width: 140rem;
+    margin: 8rem auto;
+}
+
+.main__book {
+    max-width: 48rem;
+   
+    margin: 0 auto;
+
+}
+
